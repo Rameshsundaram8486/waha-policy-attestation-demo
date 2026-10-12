@@ -1,0 +1,27 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
+
+# Dependencies and local tooling
+node_modules/
+.cache/
+test-results/
+playwright-report/
+screenshots/
+
+# Secrets and environment files — never commit
+.env
+.env.*
+*.pem
+*.key
+*.pfx
+secrets.*
+
+# Reference material that must not be published
+*.pdf
+reference/
+confidential/

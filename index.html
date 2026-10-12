@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Policy Attestation Demo · Waha Capital Intranet (Fictional Data)</title>
+  <meta name="description" content="Interactive, standalone prototype of a policy read-and-acknowledge solution for a SharePoint intranet. All data is fictional.">
+  <meta name="robots" content="noindex">
+  <link rel="icon" href="assets/images/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#view">Skip to main content</a>
+  <div class="demo-banner" role="note">
+    <strong>DEMO ENVIRONMENT — All data is fictional.</strong>
+    <span class="demo-banner__sub">SharePoint, Power Automate, Entra ID, Teams, email and Purview are simulated in the browser.</span>
+  </div>
+
+  <div class="app" id="app">
+    <aside class="sidebar" id="sidebar" aria-label="Primary navigation"></aside>
+    <div class="sidebar-scrim" id="sidebar-scrim" data-action="close-sidebar"></div>
+    <div class="main">
+      <header class="topbar" id="topbar"></header>
+      <main class="content" id="view" tabindex="-1"></main>
+      <footer class="footer">
+        <span>Policy Attestation Solution — interactive prototype by ROR Technologies. Fictional demo data only; no real employees, policies or metrics.</span>
+        <span class="footer__links"><a href="#/about">About this demo</a></span>
+      </footer>
+    </div>
+  </div>
+
+  <div id="overlay-root"></div>
+  <div class="toast-stack" id="toast-stack" aria-live="polite" aria-atomic="false"></div>
+  <div id="print-root" aria-hidden="true"></div>
+
+  <noscript><div class="noscript">This demo needs JavaScript enabled.</div></noscript>
+
+  <!-- Chart.js (optional): charts fall back to data tables if this CDN is unavailable -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js" defer></script>
+  <script src="js/util.js" defer></script>
+  <script src="js/components.js" defer></script>
+  <script src="js/data.js" defer></script>
+  <script src="js/storage.js" defer></script>
+  <script src="js/logic.js" defer></script>
+  <script src="js/views/library.js" defer></script>
+  <script src="js/views/employee.js" defer></script>
+  <script src="js/views/owner.js" defer></script>
+  <script src="js/views/campaigns.js" defer></script>
+  <script src="js/views/insights.js" defer></script>
+  <script src="js/app.js" defer></script>
+</body>
+</html>

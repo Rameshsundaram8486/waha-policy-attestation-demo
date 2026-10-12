@@ -1,0 +1,18 @@
+Copyright (c) 2026 ROR Technologies LLC. All rights reserved.
+
+This repository contains a demonstration prototype prepared for client
+presentation purposes. No licence is granted to copy, modify, distribute or
+use this software, in whole or in part, without prior written permission from
+ROR Technologies LLC.
+
+All data in this demo (names, employee IDs, policies, campaigns, metrics) is
+fictional. "Waha Capital" names and visual styling are used solely to
+illustrate the proposed solution to that client and remain the property of
+their respective owner.
+
+Third-party components:
+- Icon paths adapted from Lucide (https://lucide.dev), ISC License,
+  Copyright (c) Lucide Contributors.
+- Chart.js 4.4.1 (https://www.chartjs.org), MIT License, loaded at runtime
+  from the jsDelivr CDN.
+- Inter typeface (Google Fonts), SIL Open Font License 1.1, loaded at runtime.
